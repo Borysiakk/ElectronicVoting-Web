@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Welcome from "./Welcome"
+import {Voting} from "./Components/Voting";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Voting />
   </React.StrictMode>,
   document.getElementById('root')
 );
