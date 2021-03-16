@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Voting} from "./Components/Voting";
+import {Login} from "./Components/Login";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Voting />
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );
