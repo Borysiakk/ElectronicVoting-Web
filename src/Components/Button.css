@@ -23,19 +23,21 @@
     outline: none;
     border: none;
     background: #27ae60;
+    user-select:none;
 }
 .button a[type = "button"]:active
 {
     outline: none;
     border: none;
     background: #27ae60;
-    border: #d2dae2 solid 3px;
+    border: #05c46b solid 3px;
+    user-select:none;
 }
 .button a[type = "button"]:focus
 {
     outline: none;
     border: none;
-    border: #d2dae2 solid 3px;
+    user-select:none;
 }
 
 .button a[type = "button"] span
@@ -43,4 +45,5 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    user-select:none;
 }
