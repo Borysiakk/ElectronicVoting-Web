@@ -15,9 +15,7 @@ export const Login = () =>
             if(data.success)
             {
                 localStorage.setItem('token',data.token);
-                localStorage.setItem('KeyPublic.n',data.keyPublic.n);
-                localStorage.setItem('KeyPublic.r',data.keyPublic.r);
-                localStorage.setItem('KeyPublic.g',data.keyPublic.g);
+                localStorage.setItem('KeyPublic',JSON.stringify(data.keyPublic));
             }
             else
             {

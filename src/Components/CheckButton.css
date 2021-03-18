@@ -1,0 +1,39 @@
+
+.checkButton
+{
+
+}
+
+.checkButton a[type = "button"]
+{
+    margin: 5px;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    background: #00a8ff;
+    height: auto;
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.checkButton a[type = "button"] span
+{
+    position: relative;
+    margin-left: 10px;
+    transform: translateY(25%);
+    user-select:none;
+}
+
+.checkButton a[type = "button"]:hover
+{
+    border: #00a8ff solid 3px;
+    background: none;
+}
+
+.checkButton a[type = "button"]:active
+{
+    border: #00a8ff solid 3px;
+    background: none;
+}

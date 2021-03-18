@@ -1,0 +1,46 @@
+.button
+{
+
+}
+
+.button a[type = "button"]
+{
+    width: 360px;
+    outline: none;
+    border: none;
+    position: relative;
+    display: flex;
+    background: #05c46b;
+    height: auto;
+    font-size: 22px;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.button a[type = "button"]:hover
+{
+    outline: none;
+    border: none;
+    background: #27ae60;
+}
+.button a[type = "button"]:active
+{
+    outline: none;
+    border: none;
+    background: #27ae60;
+    border: #d2dae2 solid 3px;
+}
+.button a[type = "button"]:focus
+{
+    outline: none;
+    border: none;
+    border: #d2dae2 solid 3px;
+}
+
+.button a[type = "button"] span
+{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

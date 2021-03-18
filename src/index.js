@@ -8,7 +8,7 @@ import {Login} from "./Components/Login";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Voting />
   </React.StrictMode>,
   document.getElementById('root')
 );
